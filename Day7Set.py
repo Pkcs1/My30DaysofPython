@@ -43,8 +43,8 @@ print(A.issubset(B))
 print(A.isdisjoint(B))
 unionBA = B.union(A)
 print(A.symmetric_difference(B))
-del unionAB
-del unionBA
+del A
+del B
 
 #Exercise 3
 age_set = set(age)
