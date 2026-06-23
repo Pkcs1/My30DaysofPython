@@ -23,5 +23,25 @@ print(myself.get('LikesSomeone'))
 #Adding something to a dict
 myself['Foods'] = 'Fries' 
 #or
-myself['languages'].append("JS")
+myself['languages'].append("JS") #Adds only to a key that already exists
 print(myself)
+
+#modifying an item
+myself['nama'] = 'Naufal Rama'
+
+#Checking key in a dict
+print('umur' in myself)
+print('LikesSomeone' in myself)
+
+#Removing key or value pairs
+# .pop() Removes the item with the designated key
+# .popitem() Removes the last item
+# del removes the selected key
+# .clear
+
+#dct.items() changes a dictionary into a list of tuples
+#.copy to copy the dictionary
+#.keys to get the dictionary keys
+#.values to get the dictionary values
+
+
