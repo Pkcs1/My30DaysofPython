@@ -52,7 +52,7 @@ for i in range(101):
     total = total + i
 print(f"The sum of all numbers is {total}")
 """
-#2
+"""#2
 sum_evem = 0
 sum_odd = 0
 for i in range(101):
@@ -61,3 +61,5 @@ for i in range(101):
     else:
         sum_odd = sum_odd + i
 print(f"The sum of all evens is {sum_evem}. And the sum of all odds is {sum_odd}.")
+"""
+
