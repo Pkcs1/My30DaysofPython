@@ -87,4 +87,40 @@ def capitalize_list(lst):
     return empty
 print(capitalize_list(["hello", "world", "zen"]))
 """
-#11
+"""#11
+food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk']
+def add_item(lst,n):
+    lst.append(n)
+    return lst
+print(add_item(food_stuff, "Guava"))
+"""
+"""#12
+food_stuff = [1, 2,3, 5, 7]
+def remove_item(lst, n):
+    lst.remove(n)
+    return lst
+print(remove_item(food_stuff, 5))
+"""
+"""#13
+def sum_of_numbers(n):
+    return sum(n)
+print(sum_of_numbers(range(10)))
+"""
+"""#14
+lst = []
+def sum_of_odds(n):
+    for i in n:
+        if i % 2 != 0:
+            lst.append(i)
+    return sum(lst)
+print(sum_of_odds(range(11)))
+"""
+"""#15
+lst = []
+def sum_of_even(n):
+    for i in n:
+        if i % 2 == 0:
+            lst.append(i)
+    return sum(lst)
+print(sum_of_even(range(11)))
+"""
